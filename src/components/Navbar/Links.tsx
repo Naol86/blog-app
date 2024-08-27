@@ -17,8 +17,8 @@ export default function Links() {
   const path = usePathname();
 
   return (
-    <div className=' lg:relative bg-white right-0 top-0'>
-      <ul className='lg:flex font-montserrat'>
+    <div className='lg:relative bg-white right-0 top-0'>
+      <ul className='lg:flex font-montserrat space-y-5 md:space-y-0'>
         {links.map((link, index) => (
           <li
             key={index}

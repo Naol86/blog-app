@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 
 export default function Blogs() {
   const { data, isLoading, isError } = useGetBlogsQuery();
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return <div className='h-[60vh]'>Loading...</div>;
   return (
     <div className='md:w-2/3 w-full px-2 space-y-5'>
       <Header />

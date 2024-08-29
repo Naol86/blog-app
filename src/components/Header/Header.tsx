@@ -3,7 +3,7 @@ import AddBtn from '../Buttons/AddBtn';
 
 export default function Header() {
   return (
-    <div className='my-10 flex justify-between px-5 items-center'>
+    <div className='my-10 flex justify-between px-5 items-center mb-20'>
       <div>
         <h1 className='text-xl md:text-3xl'>Blog</h1>
       </div>

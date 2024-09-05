@@ -4,6 +4,7 @@ import path from 'path';
 import { BlogPost } from '@/types/Blog-types';
 
 export async function GET(req: Request, { params }: { params: { id: string } }) {
+  // comment
   const { id } = params;
   console.log('id is ', id);
   const filePath = path.join(process.cwd(), 'data.json');
